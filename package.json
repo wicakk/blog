@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "[my-framework] build --output public",
+        "build": "vite build",
         "deployVercel": "push-dir --dir=dist --branch=vercel --cleanup"
     },
     "devDependencies": {
