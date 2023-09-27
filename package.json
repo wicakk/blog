@@ -3,8 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "deployVercel": "push-dir --dir=dist --branch=vercel --cleanup"
+        "build": "vite build"
     },
     "devDependencies": {
         "@alpinejs/focus": "^3.10.5",
